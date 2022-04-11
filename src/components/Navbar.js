@@ -70,12 +70,11 @@ export default function Navbar() {
               <Link to="/help">Help</Link>
             </li>
             <li>
-              <Link to="/restaurant" className="wishlist_bt_top" title="Your wishlist">
-                {" "}
+              <a href="#" className="wishlist_bt_top" title="Your wishlist">
                 <i>
                   <AiFillHeart />
                 </i>
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

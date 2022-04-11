@@ -52,60 +52,6 @@ export default function Help() {
 
             <HelpBox title={"Reviews"} description={"How to write / find reviews."} />
           </div>
-
-          <div class="container margin_60_40">
-            <div class="main_title version_2">
-              <span>
-                <em></em>
-              </span>
-              <h2>Popular articles</h2>
-              <p>Find out the most searched articles here.</p>
-            </div>
-            <div class="list_articles clearfix">
-              <ul>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Find 
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Ad sit virtute rationibus efficiantur
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Partem vocibus omittam pri ne
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Case debet appareat duo cu
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Impedit torquatos quo in
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Nec omnis alienum no
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Quo eu soleat facilisi menandri
-                  </a>
-                </li>
-                <li>
-                  <a href="#0">
-                    <i class="icon_documents_alt"></i>Et dicit vidisse epicurei pri
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </div>

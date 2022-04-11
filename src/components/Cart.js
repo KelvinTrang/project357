@@ -10,39 +10,43 @@ export default function Cart(props) {
           </a>
         </div>
         <div class="main">
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginTop:"10px" }}>
             {" "}
             <AiFillMinusCircle />
+            &emsp;
             <a href="#0">1x Enchiladas</a>
             <span>$11</span>
           </div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex",marginTop:"5px" }}>
             {" "}
             <AiFillMinusCircle />
+            &emsp;
             <a href="#0">1x Enchiladas</a>
             <span>$11</span>
           </div>{" "}
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex",marginTop:"5px" }}>
             {" "}
             <AiFillMinusCircle />
+            &emsp;
             <a href="#0">1x Enchiladas</a>
             <span>$11</span>
           </div>{" "}
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex",marginTop:"5px" }}>
             {" "}
-            <AiFillMinusCircle /> &nbsp;
+            <AiFillMinusCircle /> &emsp;
             <a href="#0">1x Enchiladas</a>
             <span>$11</span>
           </div>{" "}
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex" ,marginTop:"5px"}}>
             {" "}
             <AiFillMinusCircle />
+            &emsp;
             <a href="#0">1x Enchiladas</a>
             <span>$11</span>
           </div>
           {/* <ul class="clearfix">
             <li> */}
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex",marginTop:"5px" }}>
             <div style={{ flex: "70%" }}>Subtotal</div>
             <div>$56</div>
           </div>
