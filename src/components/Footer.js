@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillHome, AiTwotonePhone, AiFillMail } from "react-icons/ai";
+import './Footer.css'
 
 export default function Footer() {
   return (

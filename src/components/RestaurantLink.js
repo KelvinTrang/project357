@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AiFillStar } from "react-icons/ai";
 
 export default function RestaurantLink({ picture, score, type, name, address, discount, price, opening }) {
   return (
@@ -9,7 +10,7 @@ export default function RestaurantLink({ picture, score, type, name, address, di
           <img src={picture} width="350" height="233" alt="" className="lazy" />
         </figure>
         <div className="score">
-          <strong>{score}</strong>
+          <strong><AiFillStar color="orange"/>{score}</strong>
         </div>
         <em>{type}</em>
         <h3>{name}</h3>

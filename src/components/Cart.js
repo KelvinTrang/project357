@@ -11,7 +11,7 @@ export default function Cart(props) {
     <div
       class="col-lg-4 container"
       id="sidebar_fixed"
-      style={{ margin: "35px 0 0 20px", borderRadius: "50px" }}
+      style={{ margin: "45px 0 0 20px", borderRadius: "50px", width:"100%" }}
     >
       <div
         class="box_order mobile_fixed"
@@ -112,7 +112,7 @@ export default function Cart(props) {
               Order Now
             </a>
             <div class="text-center">
-              <small>No money charged on this steps</small>
+              <small>No money charged on this step</small>
             </div>
           </div>
         </div>

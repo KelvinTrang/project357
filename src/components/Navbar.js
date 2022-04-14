@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import './Navbar.css'
 
 export default function Navbar() {
   return (
@@ -28,8 +29,8 @@ export default function Navbar() {
           </div>
           <ul>
             <li className="submenu">
-              <Link to="/restaurant" className="show-submenu">
-                Home
+              <Link to="/" className="show-submenu">
+                <h5>Home</h5>
               </Link>
               <ul>
                 <li>
@@ -40,11 +41,11 @@ export default function Navbar() {
 
             <li className="submenu">
               <Link to="/restaurant" className="show-submenu">
-                Restaurants
+                <h5>Restaurants</h5>
               </Link>
               <ul>
                 <li>
-                  <Link to="/">Help and Faq</Link>
+                  <Link to="/help">Help and Faq</Link>
                 </li>
                 <li>
                   <Link to="/">Blog</Link>
@@ -64,10 +65,10 @@ export default function Navbar() {
               </ul>
             </li>
             <li>
-              <Link to="/">Sign In</Link>
+              <Link to="/"><h5>Sign In</h5> </Link>
             </li>
             <li>
-              <Link to="/help">Help</Link>
+              <Link to="/help"><h5>Help</h5></Link>
             </li>
             <li>
               <a href="#" className="wishlist_bt_top" title="Your wishlist">

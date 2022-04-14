@@ -2,27 +2,30 @@ import React from "react";
 import Items from "../components/Items";
 import Cart from "../components/Cart";
 import { AiFillStar } from "react-icons/ai";
+import {Container, Col, Row} from "react-bootstrap"
 
 export default function Restaurant() {
   return (
-    <div>
-      <div style={{ margin: "2% 10% 0 10%" }}>
+    <Container fluid>
+
+      <Col style={{ margin: "2% 10% 0 10%" }}>
         <div style={{ display: "flex" }}>
           <h1>
             <b>Chicha Donburi</b> &nbsp;
           </h1>
           <div style={{ fontSize: "2.3em" }}>
             <AiFillStar style={{ color: "#ff837a" }} />
-            4.7
+            9.4
           </div>
         </div>
         Japanese &#8211; 1433A Bishop St, Montreal, Quebec H3G 2E4 &#8211;{" "}
         <a href="#">Get directions</a>
-      </div>
+      </Col>
 
-      <div style={{ display: "flex", padding: "2% 10%" }}>
-        <div style={{ flex: "80%", marginRight: "25px" }}>
-          <section id="section-1">
+      <div style={{  marginLeft: "10%", marginRight:"0" }}>
+    <Row>
+        <Col xs={12} sm={12} md={12} lg="7" xxl="6" >
+          <div style={{width:"100%"}}>
             <div>
               <h4>Starters</h4>
             </div>
@@ -38,7 +41,7 @@ export default function Restaurant() {
             <div>
               <h4>Main Courses</h4>
             </div>
-            <div style={{ padding: "0 1%" }}>
+            <div style={{ padding: "0 1%"  }}>
               <Items
                 itemName="Citrus Chicken"
                 description="Bbq chicken on rice with vegetables"
@@ -95,10 +98,14 @@ export default function Restaurant() {
                 img="https://imgur.com/GXNdDJz.png"
               />
             </div>
-          </section>
-        </div>
-        <Cart />
+            </div>
+
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={5} xxl={4} >
+          <Cart />
+        </Col>
+</Row>
       </div>
-    </div>
+    </Container>
   );
 }
