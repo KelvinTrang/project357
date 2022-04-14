@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button"
+import Button from "react-bootstrap/Button";
 export default function Items({ itemName, description, price, img }) {
   return (
     <div
@@ -6,7 +6,8 @@ export default function Items({ itemName, description, price, img }) {
         boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
         borderRadius: "5px",
         margin: "2% 0",
-        padding: "1%", paddingRight:"2%"
+        padding: "1%",
+        paddingRight: "2%",
       }}
     >
       <div
@@ -41,7 +42,7 @@ export default function Items({ itemName, description, price, img }) {
           <div>
             <strong>${price}</strong>
           </div>
-          <Button variant="dark">Add to cart</Button >
+          <a href="#">Add to cart</a>
         </div>
       </div>
     </div>
