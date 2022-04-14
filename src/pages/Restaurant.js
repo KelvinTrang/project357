@@ -26,7 +26,7 @@ export default function Restaurant() {
     <Row>
         <Col xs={12} sm={12} md={12} lg="7" xxl="6" >
           <div style={{width:"100%"}}>
-            <div>
+            <div style={{marginTop:"2%"}}>
               <h4>Starters</h4>
             </div>
             <div style={{ padding: "0 1%" }}>
